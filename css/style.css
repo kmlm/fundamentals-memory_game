@@ -6,15 +6,19 @@ h1 {font-family: "RALEWAY";
 			margin: 0;
 		}
 
-.links {font-family: "RALEWAY"; 
+a {font-family: "RALEWAY"; 
 		color: white; 
 		letter-spacing: 1px; 
 		font-weight: 600; 
 		font-size: 18px; 
 		text-decoration: none;
-		margin: 0 20px;}
+		margin: 0 20px;
+		border-bottom: 2px solid transparent;
+		}
 
-.links:hover {border-color: : white;}
+a:hover {border-color: white}
+
+
 
 h2 {font-family: "RALEWAY"; 
 				color: #0D2C40; 
@@ -70,5 +74,6 @@ footer {text-transform: uppercase;
 .name {color: #F15B31;
 		font-weight: 700;
 	}
+
 
 
