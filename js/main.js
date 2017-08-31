@@ -23,3 +23,10 @@ console.log ("User flipped king");
 /* ensuring 2 cards chosen */
 
 
+
+/* alerts for cards chosen */
+
+if (cardsInPlay[0] === cardsInPlay[1]) {alert("You found a match!");}
+	else {alert("Sorry, try again.");};
+
+
